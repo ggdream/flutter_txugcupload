@@ -1,4 +1,4 @@
-package com.tencent.ugcupload.demo.videoupload.impl.compute;
+package com.tencent.qcloud.ugckit.module.upload.impl.compute;
 
 import android.util.Log;
 

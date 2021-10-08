@@ -6,8 +6,8 @@ import android.os.Looper;
 
 import androidx.annotation.NonNull;
 
-import com.tencent.ugcupload.demo.videoupload.TXUGCPublish;
-import com.tencent.ugcupload.demo.videoupload.TXUGCPublishTypeDef;
+import com.tencent.ugckit.module.upload.TXUGCPublish;
+import com.tencent.ugckit.module.upload.TXUGCPublishTypeDef;
 
 import java.util.HashMap;
 import java.util.Map;

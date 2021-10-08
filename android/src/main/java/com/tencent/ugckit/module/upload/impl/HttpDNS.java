@@ -1,4 +1,4 @@
-package com.tencent.ugcupload.demo.videoupload.impl;
+package com.tencent.qcloud.ugckit.module.upload.impl;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
