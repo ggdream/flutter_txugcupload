@@ -1,8 +1,8 @@
 class TXMediaPublishResult {
-  int retCode; // 错误码
-  String descMsg; // 错误描述信息
-  String mediaId; // 媒体文件Id
-  String mediaURL; // 媒体地址
+  int? retCode; // 错误码
+  String? descMsg; // 错误描述信息
+  String? mediaId; // 媒体文件Id
+  String? mediaURL; // 媒体地址
 
   TXMediaPublishResult({
     this.retCode,
@@ -11,8 +11,8 @@ class TXMediaPublishResult {
     this.mediaURL,
   });
 
-  factory TXMediaPublishResult.fromJson(Map<String, dynamic> json) {
-    if (json == null) return null;
+  factory TXMediaPublishResult.fromJson(Map<String, dynamic>? json) {
+    if (json == null) return TXMediaPublishResult();
 
     return TXMediaPublishResult(
       retCode: json['retCode'],

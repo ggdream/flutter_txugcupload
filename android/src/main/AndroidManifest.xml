@@ -1,3 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   package="org.leanflutter.plugins.flutter_txugcupload">
+  <receiver android:name="com.tencent.qcloud.ugckit.module.upload.impl.TVCNetWorkStateReceiver">
+    <intent-filter>
+    <!--检测网络变化的 action-->
+      <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+      <category android:name="android.intent.category.DEFAULT" />
+    </intent-filter>
+  </receiver>
 </manifest>
