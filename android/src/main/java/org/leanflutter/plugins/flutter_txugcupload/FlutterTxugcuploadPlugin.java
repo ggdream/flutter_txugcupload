@@ -6,8 +6,8 @@ import android.os.Looper;
 
 import androidx.annotation.NonNull;
 
-import com.tencent.ugckit.module.upload.TXUGCPublish;
-import com.tencent.ugckit.module.upload.TXUGCPublishTypeDef;
+import com.tencent.qcloud.ugckit.module.upload.TXUGCPublish;
+import com.tencent.qcloud.ugckit.module.upload.TXUGCPublishTypeDef;
 
 import java.util.HashMap;
 import java.util.Map;
